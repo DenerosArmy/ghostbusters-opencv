@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BEAA861668F7C700A4FC22 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BEAA851668F7C700A4FC22 /* opencv2.framework */; };
 		14B56E83166896A000A30210 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B56E82166896A000A30210 /* UIKit.framework */; };
 		14B56E85166896A000A30210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B56E84166896A000A30210 /* Foundation.framework */; };
 		14B56E87166896A000A30210 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B56E86166896A000A30210 /* CoreGraphics.framework */; };
@@ -24,7 +25,6 @@
 		14B56EAC166896A000A30210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B56E84166896A000A30210 /* Foundation.framework */; };
 		14B56EB4166896A000A30210 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14B56EB2166896A000A30210 /* InfoPlist.strings */; };
 		14B56EB7166896A000A30210 /* opencv_ghostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B56EB6166896A000A30210 /* opencv_ghostTests.m */; };
-		14B56EC1166896DA00A30210 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B56EC0166896DA00A30210 /* opencv2.framework */; };
 		14B56EC91668BCE000A30210 /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14B56EC81668BCE000A30210 /* test1.jpg */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BEAA851668F7C700A4FC22 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		14B56E7E166896A000A30210 /* opencv-ghost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "opencv-ghost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B56E82166896A000A30210 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		14B56E84166896A000A30210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +63,6 @@
 		14B56EB3166896A000A30210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14B56EB5166896A000A30210 /* opencv_ghostTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opencv_ghostTests.h; sourceTree = "<group>"; };
 		14B56EB6166896A000A30210 /* opencv_ghostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opencv_ghostTests.m; sourceTree = "<group>"; };
-		14B56EC0166896DA00A30210 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../Downloads/opencv2.framework; sourceTree = "<group>"; };
 		14B56EC81668BCE000A30210 /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,10 +71,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14B56EC1166896DA00A30210 /* opencv2.framework in Frameworks */,
 				14B56E83166896A000A30210 /* UIKit.framework in Frameworks */,
 				14B56E85166896A000A30210 /* Foundation.framework in Frameworks */,
 				14B56E87166896A000A30210 /* CoreGraphics.framework in Frameworks */,
+				04BEAA861668F7C700A4FC22 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 		14B56E81166896A000A30210 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				14B56EC0166896DA00A30210 /* opencv2.framework */,
+				04BEAA851668F7C700A4FC22 /* opencv2.framework */,
 				14B56E82166896A000A30210 /* UIKit.framework */,
 				14B56E84166896A000A30210 /* Foundation.framework */,
 				14B56E86166896A000A30210 /* CoreGraphics.framework */,
@@ -400,6 +400,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Downloads\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "opencv-ghost/opencv-ghost-Prefix.pch";
@@ -415,6 +416,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Downloads\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "opencv-ghost/opencv-ghost-Prefix.pch";
@@ -477,6 +479,7 @@
 				14B56EBC166896A000A30210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14B56EBD166896A000A30210 /* Build configuration list for PBXNativeTarget "opencv-ghostTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +488,7 @@
 				14B56EBF166896A000A30210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
