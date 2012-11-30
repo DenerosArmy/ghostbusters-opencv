@@ -31,6 +31,12 @@
 		04BEAA7C16688E0700A4FC22 /* fog.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BEAA7B16688E0700A4FC22 /* fog.png */; };
 		04BEAA841668F73A00A4FC22 /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04BEAA831668F73A00A4FC22 /* test1.jpg */; };
 		04D847D2165E113E00CD8246 /* vghost.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D847D1165E113E00CD8246 /* vghost.png */; };
+		14B56ED3166909F800A30210 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B56ED2166909F800A30210 /* opencv2.framework */; };
+		14B56ED616690D3200A30210 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B56ED516690D3200A30210 /* AssetsLibrary.framework */; };
+		14B56ED816690DA600A30210 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B56ED716690DA600A30210 /* CoreMedia.framework */; };
+		14B56EDA16690DBD00A30210 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B56ED916690DBD00A30210 /* Accelerate.framework */; };
+		14B56EDC16690DFB00A30210 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B56EDB16690DFA00A30210 /* CoreImage.framework */; };
+		14B56EDE16690E0E00A30210 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B56EDD16690E0E00A30210 /* CoreVideo.framework */; };
 		9909952914C311E7007390A8 /* DefaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9909951914C311E7007390A8 /* DefaultImage.png */; };
 		9909952A14C311E7007390A8 /* DefaultPoiLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9909951A14C311E7007390A8 /* DefaultPoiLabel.png */; };
 		9909952B14C311E7007390A8 /* DefaultPoiLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9909951B14C311E7007390A8 /* DefaultPoiLabel.xib */; };
@@ -83,7 +89,7 @@
 		993A8E40144FB14B00414EB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 993A8E3E144FB14B00414EB3 /* InfoPlist.strings */; };
 		993A8E42144FB14B00414EB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 993A8E41144FB14B00414EB3 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		994606B71450CD8000DF25AD /* App.strings in Resources */ = {isa = PBXBuildFile; fileRef = 994606B61450CD8000DF25AD /* App.strings */; };
-		9955EE6E1498E6070081D085 /* ConfigViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9955EE6B1498E6070081D085 /* ConfigViewController.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9955EE6E1498E6070081D085 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9955EE6B1498E6070081D085 /* ConfigViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9955EE711498E61F0081D085 /* PanicARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9955EE701498E61F0081D085 /* PanicARKit.framework */; };
 		9955EE731498E63D0081D085 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9955EE721498E63D0081D085 /* MapKit.framework */; };
 		99897907156CF13500479610 /* PanicARKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99897906156CF13500479610 /* PanicARKit.strings */; };
@@ -134,6 +140,12 @@
 		04BEAA7B16688E0700A4FC22 /* fog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fog.png; sourceTree = "<group>"; };
 		04BEAA831668F73A00A4FC22 /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
 		04D847D1165E113E00CD8246 /* vghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vghost.png; sourceTree = "<group>"; };
+		14B56ED2166909F800A30210 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../../Downloads/opencv2.framework; sourceTree = "<group>"; };
+		14B56ED516690D3200A30210 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		14B56ED716690DA600A30210 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		14B56ED916690DBD00A30210 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		14B56EDB16690DFA00A30210 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		14B56EDD16690E0E00A30210 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		9909951914C311E7007390A8 /* DefaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultImage.png; sourceTree = "<group>"; };
 		9909951A14C311E7007390A8 /* DefaultPoiLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultPoiLabel.png; sourceTree = "<group>"; };
 		9909951B14C311E7007390A8 /* DefaultPoiLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultPoiLabel.xib; sourceTree = "<group>"; };
@@ -194,7 +206,7 @@
 		993A8E44144FB14B00414EB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		994606B61450CD8000DF25AD /* App.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = App.strings; sourceTree = "<group>"; };
 		9955EE6A1498E6070081D085 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
-		9955EE6B1498E6070081D085 /* ConfigViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ConfigViewController.mm; sourceTree = "<group>"; };
+		9955EE6B1498E6070081D085 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
 		9955EE701498E61F0081D085 /* PanicARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PanicARKit.framework; path = "../Framework-Debug/PanicARKit.framework"; sourceTree = "<group>"; };
 		9955EE721498E63D0081D085 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		99897906156CF13500479610 /* PanicARKit.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = PanicARKit.strings; sourceTree = "<group>"; };
@@ -207,14 +219,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14B56EDE16690E0E00A30210 /* CoreVideo.framework in Frameworks */,
+				14B56EDC16690DFB00A30210 /* CoreImage.framework in Frameworks */,
+				14B56EDA16690DBD00A30210 /* Accelerate.framework in Frameworks */,
+				9926E7FA144FB6AE0066D383 /* AVFoundation.framework in Frameworks */,
+				993A8E3A144FB14B00414EB3 /* CoreGraphics.framework in Frameworks */,
+				14B56ED816690DA600A30210 /* CoreMedia.framework in Frameworks */,
+				14B56ED616690D3200A30210 /* AssetsLibrary.framework in Frameworks */,
+				14B56ED3166909F800A30210 /* opencv2.framework in Frameworks */,
 				04BEAA42166866EF00A4FC22 /* Security.framework in Frameworks */,
 				04BEAA40166866E700A4FC22 /* CFNetwork.framework in Frameworks */,
 				04BEAA3E166866DE00A4FC22 /* libicucore.dylib in Frameworks */,
 				9955EE731498E63D0081D085 /* MapKit.framework in Frameworks */,
-				9926E7FA144FB6AE0066D383 /* AVFoundation.framework in Frameworks */,
 				9926E7FB144FB6AE0066D383 /* CoreLocation.framework in Frameworks */,
 				9926E7FC144FB6AE0066D383 /* CoreMotion.framework in Frameworks */,
-				993A8E3A144FB14B00414EB3 /* CoreGraphics.framework in Frameworks */,
 				993A8E36144FB14B00414EB3 /* UIKit.framework in Frameworks */,
 				993A8E38144FB14B00414EB3 /* Foundation.framework in Frameworks */,
 				9955EE711498E61F0081D085 /* PanicARKit.framework in Frameworks */,
@@ -349,7 +367,7 @@
 				9926E7CE144FB4C80066D383 /* MyARViewController.h */,
 				9926E7CF144FB4C80066D383 /* MyARViewController.mm */,
 				9955EE6A1498E6070081D085 /* ConfigViewController.h */,
-				9955EE6B1498E6070081D085 /* ConfigViewController.mm */,
+				9955EE6B1498E6070081D085 /* ConfigViewController.m */,
 			);
 			name = ViewController;
 			path = PanicARDemo;
@@ -358,6 +376,11 @@
 		993A8E26144FB14800414EB3 = {
 			isa = PBXGroup;
 			children = (
+				14B56EDD16690E0E00A30210 /* CoreVideo.framework */,
+				14B56EDB16690DFA00A30210 /* CoreImage.framework */,
+				14B56ED916690DBD00A30210 /* Accelerate.framework */,
+				14B56ED716690DA600A30210 /* CoreMedia.framework */,
+				14B56ED516690D3200A30210 /* AssetsLibrary.framework */,
 				04BEAA41166866EF00A4FC22 /* Security.framework */,
 				04BEAA3F166866E700A4FC22 /* CFNetwork.framework */,
 				04BEAA3D166866DD00A4FC22 /* libicucore.dylib */,
@@ -386,6 +409,7 @@
 		993A8E34144FB14B00414EB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14B56ED2166909F800A30210 /* opencv2.framework */,
 				9955EE721498E63D0081D085 /* MapKit.framework */,
 				9955EE701498E61F0081D085 /* PanicARKit.framework */,
 				9926E7F5144FB6AE0066D383 /* AVFoundation.framework */,
@@ -538,7 +562,7 @@
 				9926E7D2144FB4C80066D383 /* AboutViewController.m in Sources */,
 				9926E7D5144FB4C80066D383 /* MyARViewController.mm in Sources */,
 				9926E7D7144FB5480066D383 /* AppDelegate.mm in Sources */,
-				9955EE6E1498E6070081D085 /* ConfigViewController.mm in Sources */,
+				9955EE6E1498E6070081D085 /* ConfigViewController.m in Sources */,
 				04BEAA3716684FBF00A4FC22 /* GHViewController.m in Sources */,
 				04BEAA4F1668679D00A4FC22 /* base64.c in Sources */,
 				04BEAA501668679D00A4FC22 /* NSData+SRB64Additions.m in Sources */,
@@ -631,11 +655,12 @@
 		993A8E64144FB14C00414EB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"../Framework-Debug/**",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../Downloads\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PanicARDemo/PanicAR-Demo-Prefix.pch";
@@ -651,11 +676,12 @@
 		993A8E65144FB14C00414EB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"../Framework-Release/**",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../Downloads\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PanicARDemo/PanicAR-Demo-Prefix.pch";
